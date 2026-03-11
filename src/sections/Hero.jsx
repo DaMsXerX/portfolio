@@ -13,18 +13,17 @@ function AvatarModel() {
   const { scene } = useGLTF("/models/desktop.glb");
   const modelRef = useRef();
   const [hovered, setHovered] = useState(false);
+  const targetVec = useRef(new THREE.Vector3(1, 1, 1));
 
   useFrame((state) => {
     if (modelRef.current) {
       modelRef.current.rotation.set(0, 5, 0);
       modelRef.current.position.y = Math.sin(state.clock.elapsedTime * 0.5) * 0.2;
 
-      // Smooth hover scaling
+      // Smooth hover scaling — reuse vector to avoid per-frame allocation
       const targetScale = hovered ? 1.2 : 1;
-      modelRef.current.scale.lerp(
-        new THREE.Vector3(targetScale, targetScale, targetScale),
-        0.1
-      );
+      targetVec.current.setScalar(targetScale);
+      modelRef.current.scale.lerp(targetVec.current, 0.1);
     }
   });
 
@@ -198,3 +197,4 @@ export default function Hero() {
     </section>
   );
 }
+
