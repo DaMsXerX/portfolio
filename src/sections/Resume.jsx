@@ -111,32 +111,7 @@ const Resume = () => {
   </ul>
 </div>
 
-          {/* <div className="resume-item">
-            <h4>Freelance Flutter Developer</h4>
-            <h5>2022 - 2023</h5>
-            <p>
-              <em>Remote</em>
-            </p>
-            <ul>
-              <li>
-                Built and delivered 8+ custom applications including portfolio
-                websites, TikTok-style reels app, and comprehensive school
-                management systems
-              </li>
-              <li>
-                Developed Firebase-integrated mobile applications with real-time
-                data synchronization and offline capabilities
-              </li>
-              <li>
-                Designed intuitive and responsive UI/UX interfaces using Figma
-                and Flutter, resulting in 95% user approval ratings
-              </li>
-              <li>
-                Managed complete project lifecycle from client consultation to
-                deployment and maintenance
-              </li>
-            </ul>
-          </div> */}
+      
 
           
           
@@ -172,28 +147,7 @@ const Resume = () => {
   </ul>
 </div>
 
-{/* Food Delivery App
-<div className="resume-item">
-  <h4>Multi-Platform Food Delivery App</h4>
-  <p>
-    <em>Flutter, Firebase, GetX, Google Maps API</em>
-  </p>
-  <ul>
-    <li>
-      Designed a <strong>three-role system</strong> (Customer, Delivery, Admin) with 
-      Firebase authentication and role-based dashboards.
-    </li>
-    <li>
-      Integrated <strong>Google Maps API</strong> for live order tracking and delivery status.
-    </li>
-    <li>
-      Added <strong>payment gateway</strong> with multiple options and secure order processing.
-    </li>
-    <li>
-      Developed <strong>admin panel</strong> for managing restaurants, orders, and delivery agents.
-    </li>
-  </ul>
-</div> */}
+
 
 {/* School Management System */}
 <div className="resume-item">
