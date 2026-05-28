@@ -120,6 +120,4 @@ export default function About() {
   );
 }
 
-// will be updated soon
-
 
