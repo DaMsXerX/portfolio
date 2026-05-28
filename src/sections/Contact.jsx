@@ -207,3 +207,5 @@ export default function Contact() {
     </section>
   );
 }
+
+// new updates soon
