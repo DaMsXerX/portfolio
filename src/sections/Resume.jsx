@@ -219,3 +219,5 @@ const Resume = () => {
 };
 
 export default Resume;
+
+// resume will be updated soon
