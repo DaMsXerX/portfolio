@@ -125,21 +125,7 @@ export default function Footer() {
               </span>
               <span>Made with ❤️ in India</span>
             </div>
-{/* 
-            <div className="social-links">
-              {socialLinks.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.href}
-                  className="social-link"
-                  target={social.href.startsWith('mailto:') ? '_self' : '_blank'}
-                  rel={social.href.startsWith('mailto:') ? '' : 'noopener noreferrer'}
-                  aria-label={social.label}
-                >
-                  {social.icon}
-                </a>
-              ))}
-            </div> */}
+
           </div>
         </div>
       </footer>
