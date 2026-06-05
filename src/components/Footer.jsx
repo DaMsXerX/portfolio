@@ -141,3 +141,4 @@ export default function Footer() {
     </>
   );
 }
+// more informations soon
