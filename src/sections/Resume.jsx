@@ -193,19 +193,7 @@ const Resume = () => {
     </li>
   </ul>
 </div>
-
-
-
-
-
-
-
         </div>
-
-       
-       
-
-
       </div>
 
       {/* Download Button */}
@@ -220,4 +208,4 @@ const Resume = () => {
 
 export default Resume;
 
-// resume will be updated soon
+
