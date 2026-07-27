@@ -208,4 +208,3 @@ export default function Contact() {
   );
 }
 
-// new updates soon
