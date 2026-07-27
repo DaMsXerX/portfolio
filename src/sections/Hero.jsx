@@ -197,4 +197,4 @@ export default function Hero() {
     </section>
   );
 }
-
+// new improvements soon
