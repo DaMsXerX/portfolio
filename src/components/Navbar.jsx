@@ -147,3 +147,4 @@ export default function Navbar() {
     </nav>
   );
 }
+// new features soon
