@@ -119,5 +119,5 @@ export default function About() {
     </section>
   );
 }
-
+// new details will be added soon
 
