@@ -1,4 +1,3 @@
-
 import React, { useRef, useState, useEffect, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Stars, Sphere, useGLTF } from '@react-three/drei';
@@ -197,4 +196,3 @@ export default function Hero() {
     </section>
   );
 }
-// new improvements soon
