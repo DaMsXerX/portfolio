@@ -126,4 +126,3 @@ export default function Projects() {
     </section>
   );
 }
-// more projects will be added soon
