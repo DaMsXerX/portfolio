@@ -1,4 +1,3 @@
-
 import "../styles/resume.css";
 
 const Resume = () => {
@@ -207,5 +206,7 @@ const Resume = () => {
 };
 
 export default Resume;
+
+// code will be updated soon
 
 
