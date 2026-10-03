@@ -196,4 +196,3 @@ export default function Hero() {
     </section>
   );
 }
-// code will be improved soon
