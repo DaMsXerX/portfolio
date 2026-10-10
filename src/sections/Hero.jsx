@@ -196,3 +196,4 @@ export default function Hero() {
     </section>
   );
 }
+// UI will be improved soon
